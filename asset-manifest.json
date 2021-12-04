@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dice-simulation/static/css/main.baa6cde5.chunk.css",
+    "main.js": "/dice-simulation/static/js/main.163ee3ce.chunk.js",
+    "main.js.map": "/dice-simulation/static/js/main.163ee3ce.chunk.js.map",
+    "runtime-main.js": "/dice-simulation/static/js/runtime-main.905d1524.js",
+    "runtime-main.js.map": "/dice-simulation/static/js/runtime-main.905d1524.js.map",
+    "static/js/2.ce5b79ed.chunk.js": "/dice-simulation/static/js/2.ce5b79ed.chunk.js",
+    "static/js/2.ce5b79ed.chunk.js.map": "/dice-simulation/static/js/2.ce5b79ed.chunk.js.map",
+    "index.html": "/dice-simulation/index.html",
+    "static/css/main.baa6cde5.chunk.css.map": "/dice-simulation/static/css/main.baa6cde5.chunk.css.map",
+    "static/js/2.ce5b79ed.chunk.js.LICENSE.txt": "/dice-simulation/static/js/2.ce5b79ed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.905d1524.js",
+    "static/js/2.ce5b79ed.chunk.js",
+    "static/css/main.baa6cde5.chunk.css",
+    "static/js/main.163ee3ce.chunk.js"
+  ]
+}
