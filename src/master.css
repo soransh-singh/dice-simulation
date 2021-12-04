@@ -1,12 +1,131 @@
 *{
   box-sizing: border-box;
+  margin: 0;
 }
+
+/* --- Reset --- */
 
 body{
   margin: 0;
   min-height: 100vh;
+  font-family: 'Nunito', sans-serif;
+
 }
 
-input,select,option{
+a{
+  color: inherit;
+}
+
+input,select,option,button{
   font: inherit;
+}
+
+option{
+  font-weight: 700;
+}
+
+input,select{
+  padding: .5em 1em;
+  border-radius: 1.25em;
+  border: solid 2px hsl(270 23% 18%);
+}
+
+input:focus,
+select:focus{
+  outline: solid 4px hsl(1 80% 65%);
+}
+
+label{
+  font-weight: 700;
+}
+
+input:focus + label,
+select:focus + label{
+  color: hsl(1 80% 65%);
+}
+
+
+/* utility classes */
+
+.container{
+  max-width: 700px;
+  margin-inline: 2rem;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.flex>*{
+  width: 100%;
+}
+
+.grid{
+  display: grid;
+  gap: 2rem;
+}
+
+/* --- header --- */
+
+header{
+  background-color: hsl(1 80% 65%);
+  padding: 1rem 2rem;
+  margin-bottom: 4rem;
+  box-shadow: 0 4px 8px hsl(0 0% 10%/0.25);
+
+}
+
+.logo{
+  font-weight: 900;
+  color: white;
+}
+
+/* button */
+.btn{
+  width: 60%;
+  max-width: 500px;
+  justify-self: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: .5em 1em;
+  margin-block: 2em;
+  color: hsl(0 0% 100%);
+  background-color: hsl(1 70% 50%);
+  border-radius: 0.5em;
+  border: solid .25em hsl(1 80% 65%);
+  box-shadow: 0 4px 8px hsl(0 0% 10%/0.25);
+  transition: 0.3s linear;
+}
+
+.btn:hover{
+  background-color: hsl(1 80% 65%);
+}
+
+.btn:active{
+  transform: scale(0.95);
+  background-color: hsl(1 80% 45%);
+}
+
+/* --- Output --- */
+.output{
+  border: solid 1em  hsl(1 80% 65%);
+  border-radius: 1em;
+  background-color: hsl(1 30% 95%);
+  color: 2px hsl(270 23% 18%);
+  padding: 1em;
+  max-width: 500px;
+  margin-inline: auto;
+  text-align: center;
+  box-shadow: 0 4px 8px hsl(0 0% 10%/0.25);
+
+}
+
+
+@media (min-width: 700px) {
+  .container{
+    margin-inline: auto;
+  }
 }
